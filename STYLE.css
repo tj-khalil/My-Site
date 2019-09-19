@@ -1,0 +1,24 @@
+#video1 {
+		display: inline;text-align: center;
+}
+
+#buttons1 {
+  padding: 10px; margin: 20px ;
+}
+
+#assignments {
+	background-image: url("http://hddesktopwallpapers.in/wp-content/uploads/2015/07/brick-wallpaper-dark-background.jpg");
+        background-repeat:no-repeat;
+       background-size:cover;
+}
+
+#About {
+	background-image: url("https://1.bp.blogspot.com/-hzAAR7CkG2c/W9hmTiSOElI/AAAAAAAAAVs/qbaMczsHueoyPX9zasJA4BcOsTeca-ztwCLcBGAs/s1600/Sunrise%2Bin%2BThe%2BOcean%2BCloudy%2BSky%2B4K%2BNature%2BBackground%2BStock%2BFootage.jpg");
+        background-repeat:no-repeat;
+       background-size:cover;
+}
+#Home   {
+	background-image: url("https://www.barraques.cat/pngfile/big/73-734509_download-hd-brown-dark-wood-texture-scratches-wallpaper.jpg");
+        background-repeat:no-repeat;
+       background-size:cover;
+} 
