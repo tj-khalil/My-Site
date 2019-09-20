@@ -6,10 +6,17 @@
   padding: 10px; margin: 20px ;
 }
 
-#assignments {
+#Assignments {
 	background-image: url("http://hddesktopwallpapers.in/wp-content/uploads/2015/07/brick-wallpaper-dark-background.jpg");
         background-repeat:no-repeat;
        background-size:cover;
+}
+
+#Mywork {
+background-image: url("http://pavbca.com/walldb/original/e/1/8/12711.jpg");
+        background-repeat:no-repeat;
+       background-size:cover;
+
 }
 
 #About {
@@ -22,3 +29,36 @@
         background-repeat:no-repeat;
        background-size:cover;
 } 
+
+body {
+	margin: 0;padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family:arial;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
