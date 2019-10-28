@@ -36,7 +36,7 @@ var x = 0;
 	while (x <= 99){
 		x = x + 1;
 		if(x % 4 == 0 && x % 10 == 0) {
-			alert('fourten');
+			alert('tenfour');
 		}else if (x % 10 == 0){
 			alert('ten');
 		}else if (x % 4 == 0){
