@@ -30,6 +30,13 @@ background-image: url("https://www.larutadelsorigens.cat/wallpic/full/218-218575
        background-size:cover;
 } 
 
+#nottt   {
+	background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjOjJOE5dXlAhVDT6wKHSdID9kQjRx6BAgBEAQ&url=https%3A%2F%2Fwall.alphacoders.com%2Fby_sub_category.php%3Fid%3D274165%26name%3DWebsite%2BUnder%2BConstruction%2BWallpapers&psig=AOvVaw1FcPodbERFEkZc6fbgmEvK&ust=1573136686257041");
+        background-repeat:no-repeat;
+       background-size:cover;
+} 
+
+
 body {
 	margin: 0;padding: 0;
 }

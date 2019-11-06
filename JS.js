@@ -46,3 +46,30 @@ var x = 0;
 		}
 	}
 }
+
+function str_lgn(){
+	const nem = prompt('Enter a word here');
+	alert('Your string has '+nem.length+' characters.')
+};
+
+function login_(){
+	const user_name = prompt('Please enter your username.');
+
+		var res = user_name.toLowerCase();
+
+	const user_pass = prompt('Please enter your password.');
+
+	if(res == 'tjkhalil' && user_pass == '123'){
+		alert('True')
+	}
+
+	else{
+		alert('False')
+	}
+
+	
+}
+
+function every_other(){
+
+}
