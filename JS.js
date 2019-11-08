@@ -70,6 +70,5 @@ function login_(){
 	
 }
 
-function every_other(){
-
+function alternating(){
 }
