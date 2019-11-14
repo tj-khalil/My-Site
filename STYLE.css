@@ -59,6 +59,10 @@ li {
   float: left;
 }
 
+p {
+  font-family: Arial;
+}
+
 li a {
   display: block;
   color: white;

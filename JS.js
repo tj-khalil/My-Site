@@ -70,5 +70,13 @@ function login_(){
 	
 }
 
-function alternating(){
+function alternating(string){
+  altstr = "";
+  for(let i=1; i<string.length; i+=2){
+    altstr += string[i-1].toUpperCase();
+    altstr += string[i].toLowerCase();
+  }
+  return(altstr);
+
+console.log(alternating("pais"));
 }
