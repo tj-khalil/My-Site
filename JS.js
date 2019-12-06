@@ -80,3 +80,43 @@ function alternating(string){
 
 console.log(alternating("pais"));
 }
+
+function pigLatinTranslator(sentence){
+
+	sentence = prompt("Please enter a string")
+
+	if(typeof(sentence)!=='string'){
+	  alert('You must enter a valid string. The value you entered is not a string');
+	  return false;
+	}
+	
+	else{
+	//split the sentence into an array of words
+	var words = sentence.split(" ");
+	
+	//create an array to hold the new pigLatin sentence
+	var pigLatinSentence = [];
+	//loop through each word in the new array and split it to an array of characters
+	for(var i=0;i<words.length;i++){
+	  letters = words[i].split("");
+	  
+	  //extract the first element of the array, concantenate with "ay" and push it to the array of letters
+	  letters.push(letters.splice(0,1)+"ay");
+	  
+	  //join the letters to form a new word
+	  word = letters.join('');
+	  
+	  //if it is the first word of the sentence, convert the first letter to UpperCase
+	  if(i===0){
+		word = word.slice(0,1).toUpperCase() + word.slice(1);
+	  }
+	  
+	  //push the newly formed words to the pigLatinSentence array
+	  pigLatinSentence.push(word);
+	}
+	
+	//join the words to form a new sentence
+	pigLatinSentence = pigLatinSentence.join(" ");
+	return alert(pigLatinSentence);
+  }
+}
