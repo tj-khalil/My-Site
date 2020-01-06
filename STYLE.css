@@ -7,25 +7,25 @@
 }
 
 #Assignments {
-	background-image: url("https://wallpaperaccess.com/full/877589.jpg");
+	background-image: url("https://cdn.vox-cdn.com/thumbor/azFevJ9toCq0uVmo9w7l1OpFU_Q=/0x0:1800x1200/1200x0/filters:focal(0x0:1800x1200):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10675231/The_Verge_Wallpaper_Seismic_Small.jpg");
         background-repeat:no-repeat;
        background-size:cover;
 }
 
 #Mywork {
-background-image: url("https://www.larutadelsorigens.cat/wallpic/full/218-2185756_beautiful-sea-shore-sea-waves-wallpaper-beach-aerial.jpg");
+background-image: url("https://cdn.vox-cdn.com/thumbor/lDHpOUz8q0eORX7KIeD902GqQzA=/0x0:1800x1200/1200x0/filters:focal(0x0:1800x1200):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13760622/The_Verge_Wallpaper_021419_Preview.0.jpg");
         background-repeat:no-repeat;
        background-size:cover;
 
 }
 
 #About {
-	background-image: url("https://wallpaperaccess.com/full/398927.jpg");
+	background-image: url("https://www.hdwallpapers.net/previews/purple-waves-1179.jpg");
         background-repeat:no-repeat;
        background-size:cover;
 }
 #Home   {
-	background-image: url("https://stmed.net/sites/default/files/wood-wallpapers-28106-5883870.jpg");
+	background-image: url("https://cdn.vox-cdn.com/thumbor/NLy039WAe10-ysPDwHClpDsup78=/0x0:1800x1200/1200x0/filters:focal(0x0:1800x1200):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13107657/The_Verge_Pathways_Wallpaper_Small.0.jpg");
         background-repeat:no-repeat;
        background-size:cover;
 } 
@@ -60,7 +60,7 @@ li {
 }
 
 p {
-  font-family: Arial;
+  font-family: Arial; color: white;
 }
 
 li a {
