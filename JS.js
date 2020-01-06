@@ -81,7 +81,7 @@ function alternating(string){
 console.log(alternating("pais"));
 }
 
-function pigLatinTranslator(sentence){
+function pigLatinTranslator(sentence){ //Made by fupuchu@repl.it
 
 	sentence = prompt("Please enter a string")
 
@@ -118,5 +118,42 @@ function pigLatinTranslator(sentence){
 	//join the words to form a new sentence
 	pigLatinSentence = pigLatinSentence.join(" ");
 	return alert(pigLatinSentence);
+  }
+}
+
+function pigLatinComplicator(sentence1){
+
+	sentence1 = prompt("Please enter a Pig Latin string")
+
+	if(typeof(sentence1)!=='string'){
+	  alert('You must enter a valid string. The value you entered is not a string');
+	  return false;
+	}
+	
+	else{
+	var words1 = sentence1.split(" ");
+	
+	var pigLatinSentence1 = [];
+	
+	for(var i=0;i<words1.length;i++){
+	  letters1 = words1[i].split("");
+	  
+	  
+	  letters1.pop(letters1.splice(3,0)-"ay");
+	  
+	  
+	  word1 = letters1.join('');
+	  
+	  
+	  if(i===0){
+		word1 = word1.slice(1,0).toLowerCase() + word1.slice(1);
+	  }
+	  
+	
+	  pigLatinSentence1.push(word1);
+	}
+	
+	pigLatinSentence1 = pigLatinSentence1.join(" ");
+	return alert(pigLatinSentence1);
   }
 }
