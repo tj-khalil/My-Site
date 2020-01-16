@@ -157,3 +157,12 @@ function pigLatinComplicator(sentence1){
 	return alert(pigLatinSentence1);
   }
 }
+
+function encryptt(senn){
+
+	senn = prompt("Please enter your message");
+
+	var arrr = senn.split('').reverse().join('');
+
+	return alert(arrr);
+}
