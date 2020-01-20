@@ -158,11 +158,43 @@ function pigLatinComplicator(sentence1){
   }
 }
 
-function encryptt(senn){
+function reverse(senn){
 
 	senn = prompt("Please enter your message");
 
 	var arrr = senn.split('').reverse().join('');
 
 	return alert(arrr);
+}
+
+function Encrypt(){
+  var str = prompt("Enter plain text")
+var a = str.split("")
+var x = ""
+var y ="a1dgh0klqwe6tyuioopmnbvz"
+var z = "6sdfghyukiolkhgfdsa"
+for(let i = 0;i< a.length;i++){
+  for(let g= 0;g< a[i].length;g++)
+x += a[i][g]+y[g]+z[g+2]
+}
+var sipherout = (x.trim("").toLowerCase())
+
+ return alert(sipherout);
+
+}
+
+
+
+
+function Decrypt(){
+  var sipherin = prompt("Enter encrypted text")
+var z =""
+for(let i = 0;i< sipherin.length;i+= 3){
+z += sipherin[i] +" "
+}
+var plainout = (z.trim("").toLowerCase())
+
+  return alert(plainout);
+
+
 }
