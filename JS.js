@@ -171,15 +171,15 @@ function Encrypt(){
   var str = prompt("Enter plain text")
 var a = str.split("")
 var x = ""
-var y ="a1dgh0klqwe6tyuioopmnbvz"
-var z = "6sdfghyukiolkhgfdsa"
+var y ="cxbo236x8os6q5342789623e6xc32"
+var z = "e9gc84r753g84r12e7yxdioqpo0"
 for(let i = 0;i< a.length;i++){
   for(let g= 0;g< a[i].length;g++)
 x += a[i][g]+y[g]+z[g+2]
 }
-var sipherout = (x.trim("").toLowerCase())
+var encout = (x.trim("").toLowerCase())
 
- return alert(sipherout);
+ return alert(encout);
 
 }
 
